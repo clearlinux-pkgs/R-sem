@@ -4,18 +4,13 @@
 #
 Name     : R-sem
 Version  : 3.1.9
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/sem_3.1-9.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sem_3.1-9.tar.gz
 Summary  : Structural Equation Models
 Group    : Development/Tools
 License  : GPL-2.0+
 Requires: R-sem-lib = %{version}-%{release}
-Requires: R-abind
-Requires: R-coda
-Requires: R-matrixcalc
-Requires: R-mi
-Requires: R-polycor
 BuildRequires : R-abind
 BuildRequires : R-coda
 BuildRequires : R-matrixcalc
@@ -43,10 +38,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1552846825
+export SOURCE_DATE_EPOCH=1552855271
 
 %install
-export SOURCE_DATE_EPOCH=1552846825
+export SOURCE_DATE_EPOCH=1552855271
 rm -rf %{buildroot}
 export LANG=C
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
