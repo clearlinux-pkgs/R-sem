@@ -4,7 +4,7 @@
 #
 Name     : R-sem
 Version  : 3.1.15
-Release  : 49
+Release  : 50
 URL      : https://cran.r-project.org/src/contrib/sem_3.1-15.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/sem_3.1-15.tar.gz
 Summary  : Structural Equation Models
